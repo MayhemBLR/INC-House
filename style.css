@@ -80,22 +80,7 @@ header {
       text-align: left;
     }
 
-    button {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 23.48px;
-      text-align: left;
-      width: Hug (225px)px;
-      height: Fixed (65px)px;
-      top: 266px;
-      padding: 20px 60px 20px 60px;
-      gap: 6px;
-      border: 1px 0px 0px 0px;
-      opacity: 0px;
-      background: none;
-      border: 1px solid #598D66;
-      color: #598D66;
-    }
+    
   }
 }
 
@@ -134,11 +119,13 @@ header {
         &:hover {
           background-color: #598D66;
           color: #F4F6F5;
+          border-color:#598D66;
         }
 
         &:active {
           background: #376B44;
           color: #F4F6F5;
+          border-color:#376B44;
         }
 
         /* &:focus {
@@ -149,4 +136,30 @@ header {
   }
 
 
+}
+
+.button-outline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.48px;
+  padding: 20px 60px 20px 60px;
+  background: none;
+  border: 1px solid #598D66;
+  color: #598D66;
+  &:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+    border-color:#598D66;
+  }
+
+  &:active {
+    background: #376B44;
+    color: #F4F6F5;
+    border-color:#376B44;
+  }
+}
+.full-widght{
+display: flex;
+width: 100%;
+justify-content: center;
 }

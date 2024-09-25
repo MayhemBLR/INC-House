@@ -54,13 +54,13 @@ const artworks = [
 function renderArtworks() {
     const container = document.querySelector('.artworks-container');
     const artworkCards = artworks.map(artwork => `
-    <div class="artwork-card">
+    <div class="art-card">
       <img src="${artwork.image}" alt="${artwork.title}">
+      <p class="artist">${artwork.artist}</p>
       <h2>${artwork.title}</h2>
-      <p>Автор: ${artwork.artist}</p>
-      <p>Материал: ${artwork.medium}</p>
-      <p>Размеры: ${artwork.dimensions}</p>
-      <p>Цена: ${artwork.price}</p>
+      <p class="medium">${artwork.medium} ${artwork.dimensions}</p>
+      <p class="price">${artwork.price}</p>
+      <button class="button-outline full-widght">В корзину</button>
     </div>
   `).join('');
 

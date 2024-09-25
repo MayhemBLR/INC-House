@@ -1,3 +1,47 @@
 .artworks-container {
+  display: grid; /* Устанавливаем контейнер как grid-контейнер */
+  grid-template-columns: repeat(3, 1fr); /* Создаем три колонки одинаковой ширины */
+  gap: 20px; /* Устанавливаем промежуток между карточками */
+  .art-card {
+    background: #E1EDE6;
+    padding: 20px;
+  .artist{
+  font-size: 18px;
+  font-weight: 500;
+  color:#86928B;
+  
+  }
+    
+    
+    .medium{
+font-size: 18px;
+font-weight: 500;
+color: #2C2D35;
 
+
+
+    
+    }
+    
+    
+    
+    .price{
+      color: #598D66;
+      font-size: 24px;
+      font-weight: 500;
+
+
+    
+    }
+    h2{
+font-size: 30px;
+font-weight: 500;
+color:#2C2D35 ;
+line-height: 35px;
+
+
+    }
+  
+  }  
 }
+
