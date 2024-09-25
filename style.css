@@ -1,0 +1,127 @@
+/* Общие стили для всех элементов */
+* {
+  font-family: "Raleway", sans-serif; /* Устанавливает шрифт "Raleway" для всех элементов на странице. Если шрифт "Raleway" недоступен, будет использоваться шрифт из семейства sans-serif. */
+  font-optical-sizing: auto; /* Включает оптическое масштабирование шрифта, что позволяет шрифту автоматически адаптироваться к различным размерам текста для лучшей читаемости. */
+  font-weight: <weight>; /* Устанавливает толщину шрифта. Значение <weight> должно быть заменено на конкретное значение, например, normal, bold, 400, 700 и т.д. */
+  font-style: normal; /* Устанавливает нормальный стиль шрифта (не курсив). */
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* Стили для элемента header */
+header {
+  background: #E1EDE6; /* Устанавливает фоновый цвет заголовка. */
+  display: flex; /* Делает заголовок flex-контейнером для горизонтального выравнивания элементов. */
+  height: 100px; /* Устанавливает высоту заголовка. */
+  padding: 0 calc((100vw - 1110px) / 2); /* Устанавливает внутренние отступы заголовка (верхний и нижний отступы равны 0, левый и правый отступы равны 200px). */
+  align-items: center; /* Выравнивает элементы внутри заголовка по вертикали по центру. */
+justify-content: space-between;
+}
+
+/* Стили для элемента с классом logo-wrapper */
+.logo-wrapper {
+  display: flex; /* Делает элемент flex-контейнером для горизонтального выравнивания элементов. */
+  align-items: center; /* Выравнивает элементы внутри контейнера по вертикали по центру. */
+  color: #598D66; /* Устанавливает цвет текста. */
+  gap: 10px; /* Устанавливает промежуток между элементами внутри контейнера. */
+  font-family: Raleway;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.48px;
+text-align: left;
+
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px; 
+  button{
+    font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 23.48px;
+text-align: left;
+
+  }
+font-size: 20px;
+font-weight: 500;
+line-height: 23.48px;
+text-align: left;
+
+}
+
+.hero{
+display: flex;
+align-items:center;
+justify-content: center;
+.hero-content{width: 540px;
+  h1{
+font-size: 60px;
+font-weight: 500;
+line-height: 66px;
+text-align: left;
+
+  }
+  .title-green{
+  color: #598D66;
+  }
+  p{
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+
+  }
+  button{
+font-size: 20px;
+font-weight: 500;
+line-height: 23.48px;
+text-align: left;
+width: Hug (225px)px;
+height: Fixed (65px)px;
+top: 266px;
+padding: 20px 60px 20px 60px;
+gap: 6px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: none;
+border: 1px solid #598D66;
+color:#598D66;
+}
+
+}
+
+}
+.text-1{
+font-size: 40px;
+font-weight: 500;
+line-height: 44px;
+text-align: left;
+
+}
+
+.main-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+gap: 30px;
+padding: 20px calc((100vw - 1110px) / 2);
+.main-info-buttons{
+  gap: 32px ;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #598D66;
+
+
+
+
+  
+  ;
+}
+
+
+}
