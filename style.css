@@ -113,14 +113,35 @@ padding: 20px calc((100vw - 1110px) / 2);
   gap: 32px ;
   display: flex;
   align-items: center;
+
+.button-primary{
   border-radius: 20px;
-  background-color: #598D66;
+  background-color: #D4E8D9;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  &:hover {
+    background-color: #598D66;
+    color:#F4F6F5;
+ }
 
-
-
-
+ &:active {
+  background: #376B44;
+  color:#F4F6F5;
   
-  ;
+
+ }
+ /* &:focus{
+  border: 2px solid #598D66
+ } */
+
+
+}
+
+
+
 }
 
 
